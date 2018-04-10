@@ -11,4 +11,7 @@ export default () => <div style={{ color: `grey` }}>
       <br />
       <Link to="/page-3/">Page 3</Link>
     </div>
+    <div>
+    <Link to="/counter/">Counter</Link>
+    </div>
   </div>;
