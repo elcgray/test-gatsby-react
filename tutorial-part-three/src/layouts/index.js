@@ -21,5 +21,8 @@ export default ({ children }) => (
       </ul>
     </header>
     {children()}
+    <footer style={{marginBottom: `1.5rem`, float: `right` }}>
+    <p><i>Footer info, right justified</i></p>
+    </footer>
   </div>
 );
